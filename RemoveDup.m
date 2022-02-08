@@ -12,7 +12,7 @@ end
 
 
 while length(RCopy)>0
-    i=1;
+    %i=1;
     Dist=sqrt((CCopy(:,1)-CCopy(1,1)).^2+(CCopy(1,2)-CCopy(:,2)).^2);
     
     List=find(Dist<DistanceThresh);
